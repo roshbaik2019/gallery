@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".External.ContactUs">
+    <RelativeLayout
+        android:layout_gravity="left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:id="@+id/arrow_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_arrow_back"
+            android:alpha=".9"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/icon_us"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/contact">
+        </ImageView>
+        <TextView
+            android:id="@+id/textcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#F1F1F1"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_contact"
+        style="Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Contact_us"
+        android:textColor="#F1F1F1"
+        app:icon="@drawable/call"
+        app:iconTint="#F1F1F1"
+        app:iconGravity="textStart"/>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

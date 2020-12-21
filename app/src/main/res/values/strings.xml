@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Children pictures</string>
+    <string name="ADMOB_APP_ID">ca-app-pub-8838614073880804~2201640867</string>
+    <string name="adUnitIdMessage">ca-app-pub-8838614073880804/5667943272</string>
+    <string name="adUnitId2">ca-app-pub-8838614073880804/9378390901</string>
+    <string name="home">Section</string>
+    <string name="collections">Collections</string>
+    <string name="addphoto">Add photo</string>
+    <string name="homeMsg">Photo Album</string>
+    <string name="upload">Upload a picture</string>
+    <string name="ballon">Send us a picture that you liked, and it will be added to the pictures in the visitors pictures section</string>
+    <string name="Allow">Please click on allow to go to the next step!</string>
+    <string name="chooseImage">Choose an image from :</string>
+    <string name="uploadcomplete">Image upload completed successfully..You can view it in the members access section</string>
+    <string name="connection">Internet connection error</string>
+
+    <string name="YES">Ok</string>
+    <string name="NO">Back</string>
+    <string name="Contact_us">Click To Contact Us</string>
+    <string name="Our_app">Other Apps</string>
+    <string name="Privacy_policy">Privacy Policy</string>
+    <string name="contactus">Call US:</string>
+    <string name="share_text">Enter Your Message</string>
+    <string name="share">Share</string>
+    <string name="savetomobile">Save To Mobile</string>
+    <string name="wallpaper">Set wallpaper</string>
+    <string name="rate">RATE</string>
+    <string name="exit">Exit</string>
+    <string name="description_rate">This app needs your help to improve the app. Could you vote it in Play Store? :)</string>
+    <string name="share_myapp">Hi, my friends, I recommend an app for you</string>
+    <string name="share_myapp1">The application has the most beautiful pictures that you are looking for</string>
+    <string name="share_myapp2">Download the application from Google Play from the link</string>
+    <string name="save">Image saved successfully</string>
+    <string name="wallpaper_msg">Your phone wallpaper has been successfully changed</string>
+   <string name="Application_request">Application programming request</string>
+    <string name="Application_request_MSG">Write your message here</string>
+
+    <!-- Dialog in App -->
+    <string-array name="dialog_profile_image_array">
+        <item>Choose from the gallery</item>
+        <item>Camera</item>
+    </string-array>
+</resources>

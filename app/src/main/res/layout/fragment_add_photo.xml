@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".fragmentBottomMenu.AddPhotoFragment">
+    <ImageView
+        android:id="@+id/Up_image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/insert_photo"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_upload"
+        style="Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/upload"
+        android:textColor="#F1F1F1"
+        app:icon="@drawable/upload"
+        app:iconTint="#F1F1F1"
+        app:iconGravity="textStart"/>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صور اطفال</string>
+    <string name="ADMOB_APP_ID">ca-app-pub-8838614073880804~2201640867</string>
+    <string name="adUnitIdMessage">ca-app-pub-8838614073880804/5667943272</string>
+    <string name="adUnitId2">ca-app-pub-8838614073880804/9378390901</string>
+    <string name="home">أقسام الصور</string>
+    <string name="collections">صور منوعة</string>
+    <string name="addphoto">أضف صورة</string>
+    <string name="homeMsg">أقسام الصور</string>
+    <string name="upload">رفع صورة إلي التطبيق</string>
+    <string name="ballon">ارسل لنا صورة قد اعجبتك وسوف يتم اضافتها الي الصور الموجودة فى قسم صور زوار</string>
+    <string name="Allow">الرجاء الضغط علي سماح للذهاب للخطوة التالية!</string>
+    <string name="chooseImage">اختر صورة من :</string>
+    <string name="uploadcomplete">اكتمل رفع الصورة بنجاح.تستطيع مشاهدتها في قسم صور من زوار التطبيق</string>
+    <string name="connection">خطأ بالاتصال بالانترنت</string>
+
+    <string name="YES">موافق</string>
+    <string name="Contact_us">اضغط للاتصال بنا واتساب</string>
+    <string name="Our_app">تطبيقات أخري</string>
+    <string name="Privacy_policy">سياسة الخصوصية</string>
+    <string name="contactus">اتصل بنا:</string>
+    <string name="savetomobile">احفظ الصورة</string>
+    <string name="share">شاركها مع اصدقائك</string>
+    <string name="share_text">اكتب رسالة هنا</string>
+    <string name="wallpaper">اجعلها خلفية لهاتفك</string>
+    <string name="exit">خروج</string>
+    <string name="rate">تقييم التطبيق</string>
+    <string name="description_rate">يحتاج هذا التطبيق الي مساعدتك لتحسينة هل يمكنك مشكورا بالتصويت علية فى متجر جوجل بلاي ؟ :)</string>
+    <string name="NO">رجوع</string>
+    <string name="share_myapp">هاي اصدقائي ارشح لكم تطبيق</string>
+    <string name="share_myapp1">يوجد بالتطبيق اجمل الصورالتي تبحث عنها</string>
+    <string name="share_myapp2">حمل التطبيق من جوجل بلاي من الرابط</string>
+    <string name="save">تم حفظ الصورة بنجاح</string>
+    <string name="wallpaper_msg">تم تغيير خلفية هاتفك بنجاح</string>
+    <string name="Application_request">طلب برمجة تطبيق</string>
+    <string name="Application_request_MSG">اكتب رسالتك هنا</string>
+    <!-- Dialog in App -->
+    <string-array name="dialog_profile_image_array">
+        <item>اختر من معرض الصور </item>
+        <item>الكاميرا</item>
+    </string-array>
+</resources>
